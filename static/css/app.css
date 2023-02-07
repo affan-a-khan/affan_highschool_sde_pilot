@@ -1,3 +1,64 @@
 /**
 * Your CSS here
 **/
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  h1 {
+    font-family: 'Merienda', cursive;
+}
+
+body {background-color: #e8e2cc;}
+
+/* CSS */
+.button {
+  background: #bc100a;
+  border: 1px solid #bc100a;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button:hover,
+.button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #bc100a;
+}
+
+.button:active {
+  opacity: .5;
+}
+
+p, button, h2, h4, ol, label {
+    font-family: 'Average Sans', sans-serif;
+}
+

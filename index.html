@@ -8,21 +8,80 @@
     <link rel="stylesheet" href="./static/css/milligram.css" />
     <link rel="stylesheet" href="./static/css/defaults.css" />
     <link rel="stylesheet" href="./static/css/app.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Average+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div class="theme">
-        <input class="theme-control" type="radio" name="theme-switcher" id="theme-light">
-        <label class="theme-label" for="theme-light">Light</label>
-        <input class="theme-control" type="radio" name="theme-switcher" id="theme-dark">
-        <label class="theme-label" for="theme-dark">Dark</label>    
-    </div>    
+<body>   
     <main class="app">
         <header>
-            <h1>Let's go to...</h1>
+            <h1>Let's go to Spain</h1>
         </header>
         <section>
-            <h2>Section title</h2>
+            <h2>Why visit Spain?</h2>
+            <p>Spain is a fascinating, historical, and beautiful country located in Southern Europe. I chose to visit Spain in October 2022 beacuse I wanted to explore ancient castles and monuments, eat paella and churros, and visit stadiums of famous Spanish football clubs. Spain is a great destination if you're looking for an affordable trip in the offseason with great weather and plenty of activities.</p>
+            <div class="row">
+                <div class="column">
+                  <img src="static\images\IMG_3035.jpg" alt="Churros con Chocolate" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="static\images\IMG_5373.jpg" alt="Sagrada Familia" style="width:100%">
+                  </div>
+                <div class="column">
+                  <img src="static\images\IMG_3871.jpg" alt="FC Barcelona" style="width:100%">
+                </div>
+            </div>            
+        <h4>Best Attractions in Spain</h4>
+            <ol>
+              <li>Sagrada Familia</li>
+              <li>Real Alcazar de Sevilla</li>
+              <li>Camp Nou</li>
+              <li>Real Alcazar de Segovia</li>
+              <li>Santa Iglesia Catedral Primada de Toledo</li>
+              <li>Park Guell</li>
+              <li>La Giralda</li>
+              <li>Palacio Real Madrid</li>
+              <li>Plaza de Espana</li>   
+            </ol>     
         </section>
+        <section>
+            <h2>My Favorite City: Seville</h2>
+            <P>In my visit to Spain, I visited Barcelona, Seville, and Madrid, of these cities my favorite destination was Seville. Seville is a historical city located in Spain's autonomous community of Andalusia. Within the city there are many historical sites such as the medival minaret 'Giralda' from which you see expansive views of the city and the Real Alcazar of Seville where there are dozens of gardens and palaces. My favorite part of Seville was the food, there were many options that were local to the region.</P>
+            <div class="row">
+                <div class="column">
+                  <img src="static\images\IMG_5291.jpg" alt="Real Alcazar" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="static\images\IMG_5051.jpg" alt="Food" style="width:100%">
+                  </div>
+                <div class="column">
+                  <img src="static\images\IMG_4993.jpg" alt="Tower" style="width:100%">
+                </div>
+            </div> 
+            <h4>Weather of Seville</h4>
+            <a class="weatherwidget-io" href="https://forecast7.com/en/37d39n5d98/seville/" data-label_1="Seville" data-label_2="WEATHER" data-theme="original" data-basecolor="#6f95f3" data-highcolor="#ef0000" data-lowcolor="#9e4b63" >Seville Weather</a>
+            <script>
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+            </script>      
+        </section>
+        <section>
+            <h2>My Favorite Activity: Historical Tours</h2>
+            <p>When I was in Madrid, we went on a sightseeing tour of the Alcazar of Toledo and Cathedral of Segovia, this expedition was my favorite actvity. The day trip began at dawn when we left Madrid in a bus and travlled the countryside. We stopped at both towns and enjoyed a local breakfeast and lunch as well as English tours of the sites from our toru guide which detailed the history of the monuments.  </p>
+            <button text-align="middle" class="button" role="button" onclick="window.location.href='https://www.expedia.com/things-to-do/day-tour-to-toledo-segovia-optional-visit-to-avila-3-cities-in-1-day.a394820.activity-details?&rid=5150&location=Toledo%2C+Castilla+-+La+Mancha%2C+Spain&startDate=2023-02-21&endDate=2023-02-22&sort=RECOMMENDED&swp=on';">Book Tour Here</button>
+            <p></p>
+            <div class="row">
+                <div class="column">
+                  <img src="static\images\IMG_4006.jpg" alt="Throne Room" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="static\images\IMG_4157.jpg" alt="Me" style="width:100%">
+                  </div>
+                <div class="column">
+                  <img src="static\images\IMG_3967.jpg" alt="Aqueduct" style="width:100%">
+                </div>
+            </div>
+        </section> 
+  
+        
     </main>
 </body>
 </html>
